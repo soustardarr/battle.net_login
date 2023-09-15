@@ -1,0 +1,440 @@
+body {
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body {
+    background: #15171e no-repeat center top;
+    color: rgba(255, 255, 255, 0.84);
+}
+body {
+    font-feature-settings: "kern" 1, "liga" 1;
+}
+div{
+    display: block;
+}
+
+html {
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+    height: auto;
+}
+form{
+    display: block;
+    margin: 0 0 0 0;
+}
+
+.grid_container {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height: 1188px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.box_wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    width: 416px;
+    height: 1080px;
+    margin: 0 auto 25px;
+}
+
+
+
+
+.box_wrapper_inner {
+    position: 0 0 0 0;
+    width: 100%;
+    padding: 24px 0;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.login{
+    width: 416px;
+    height: 638px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+
+
+
+
+
+
+h3{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 12px;
+    color:rgb(255, 255, 255)
+    
+}
+
+.logo {
+    width: 240px;
+    height: 36.77px;
+    text-align: center;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    background-position-y: 50% ;
+}
+
+.photo{
+    align-items: flex-start;
+    height: 48px;
+    width: 48px;
+}
+
+.applied{
+    color:rgba(255, 255, 255, 0.84)
+    
+}
+.log_in_via {
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.login_header{
+    margin-top: 40px;
+}
+
+.btn {
+    align-items: flex-start;
+    background-color: #15171e;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-style: none;
+    height: 72px;
+    width: 72px;
+}
+
+
+.btn + .btn {
+    margin-left: 40px; 
+}
+
+
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 700px;
+    height: 90px;
+}
+
+
+
+
+.line {
+    margin: 40px 0 24px 0;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Noto Sans", "Object Sans", sans-serif;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: none;
+    position: relative; /* Добавьте относительное позиционирование */
+}
+
+.line::before, .line::after {
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 50%;
+}
+
+.line::before {
+    right: 290px; /* Увеличьте расстояние справа, чтобы линия не пересекала текст */
+}
+
+.line::after {
+    left: 290px; /* Увеличьте расстояние слева, чтобы линия не пересекала текст */
+}
+
+
+
+
+.login_input_container{
+    width: 416px;
+    height: 103px;
+}
+
+
+input[type="text"]{
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: #171920;
+    color: #ffffff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+input[type="password"]{
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 12px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: #171920;
+    color: #ffffff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="text"]:focus{
+    
+    border-color: #148eff;
+    background-color: #171920;
+    color: #ffffff;
+    
+}
+
+input[type="password"]:focus{
+    
+    border-color: #148eff;
+    background-color: #171920;
+    color: #ffffff;
+    
+}
+
+input::selection {
+    background: #47a6ff;
+}
+
+.control-group{
+    text-align: center;
+    margin-top: 35px;
+    margin: 0 auto 11px;
+    
+}
+
+.control-group:after {
+    clear: both;
+}
+
+.buttonau{
+    background-color: rgb(0, 116, 224);
+    align-items: flex-start;
+    border-image-slice: 100%;
+    margin: 5px 0px 6px;
+    background: #0074E0;
+    color: #ffffff;
+    width: 416px;
+    height: 40px;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 35px;
+    
+
+}
+.control-group:before, .control-group:after {
+    content: ".";
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+ul, ol {
+    padding: 0;
+    
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+}
+
+ul {
+    
+    list-style: disc;
+}
+
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 40px;
+   
+}
+
+
+
+.help-links{
+    margin-top: 48px;
+}
+
+
+a:not(.btn):visited {
+    color: #47a6ff;
+}
+
+a:not(.btn){
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    
+    text-decoration: none;
+    text-underline-position: under;
+    font-weight: 700;
+}
+a{
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-feature-settings: "kern", "liga";
+    transition: color 0.2s;
+    color: #148eff;
+    background: transparent;
+    width: 369.02px;
+    height: 45.5px;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+a::selection{
+    background: #0074e0;  
+}
+
+li {
+    display: list-item;
+    text-align: center;
+    line-height: 24px;
+    color :rgba(255, 255, 255, 0.84);
+    margin: 0 0 24.75px 0;
+    font-feature-settings: "kern", "liga";
+    list-style-position: outside;
+    list-style-type: none;
+    font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    height: 48px;
+    padding-left: 0px;
+    list-style-image: none;
+}
+
+.footer{
+    
+    padding-bottom: 24px;
+    position: absolute;
+    bottom: 20px;
+   
+    
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    
+
+}
+.content {
+    position: relative;
+    margin-bottom: 100px; 
+}
+
+.nav-client{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer-content{
+    
+    width: 700px;
+    min-width: auto;
+    margin: 0;
+    margin-right: 100px;
+    border: none;
+    color: #7b7b7b;
+    padding: 10px;
+}
+
+.nav-section{
+    margin: 0;
+}
+
+.nav-left{
+    float: none;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.footer-links{
+    padding: 8px 0 0 30px;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: text-shadow 160ms ease, color 160ms ease;
+}
+
+.nav-item:hover{
+    color: #fff;
+}
+
+.nav-a{
+    font-weight: 400;
+}
+
+
+.footer-links .nav-left span {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0 9px 0 9px;
+}
+
+.copyright{
+    padding: 8px 0;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 10px;
+}
